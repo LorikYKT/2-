@@ -1,0 +1,262 @@
+body{
+    margin: 0;                              /*убирает отступы от всех краев*/
+    background-image: url(https://altanschool.s3.eu-central-1.amazonaws.com/learns/1697021662483_headerpic.jpg); /*изображение фона*/
+    background-size: 100%;                  /*размер фона*/
+    background-position-y: -50px;           /*изображение чуть поднято наверх*/
+    background-attachment: fixed;           /*фиксация фона*/
+}
+
+header{
+    height: 100%;               /*высота*/
+    padding: 30px;          /*внутренний отступ*/
+    text-align: right;      /*текст выровнени влево*/
+    color: rgb(0, 0, 91); /*цвет текста*/
+    font-size: 25px;        /*размер текста*/
+}
+
+h1{
+    padding-top: 50px;  /*Дополнительный отступ заголовка*/
+    font-size: 80px;    /*размер заголовка*/
+    color:rgb(255, 255, 255);  /*цвет*/
+}
+main{
+    height:100%;   /*высота основной части*/
+    display: flex;
+}
+
+footer{
+    height: 100%;    /*высота*/
+    text-align: left;  /*текст выровннен влево*/
+    padding: 50px;   /*внутренний оступ*/
+    color: white;  /*цвет текста*/
+    font-size: 20px;  /*размер текста*/
+}
+
+.social{
+    list-style: none; /*убирает маркеры*/
+    display: flex; /*отображает в ряд*/
+    align-items: left; /*выравнивает иконки по центру внутри каждого пункта*/
+    justify-content: left; /*выравнивает все иконки по центру страницы*/
+    margin: 0;
+    padding: 0;
+}
+
+.social li {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.block1{
+    width: 25%;
+    height: 300px;
+  background-color: orange;
+}
+
+.block2{
+    width: 25%;
+    height: 300px;
+  background-color: blue
+}
+.block3{
+    width: 25%;
+    height: 300px;
+  background-color: burlywood;
+}
+.block4{
+    width: 25%;
+    height: 300px;
+  background-color: rgb(21, 255, 0);
+}
+
+.block1 li {
+   background-color: rgb(240, 216, 3); 
+   line-height: 2em;
+   margin-top:10px ;
+   border-radius: 3em;
+   width: 60%;
+   padding-left: 10px;
+   height:50px;
+   list-style-type: square;
+   list-style-position: inside;
+   list-style-type: "\2705";
+}
+.block1 li:hover{
+    background-color: brown;
+    color:white;
+    list-style-type: "\2705";
+    width: 70%;
+    height: 70px;
+}
+
+.block2 li {
+    background-color: rgb(240, 216, 3); 
+    line-height: 2em;
+    margin-top:10px ;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height:50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+ }
+ .block2 li:hover{
+     background-color: brown;
+     color:white;
+     list-style-type: "\2705";
+     width: 70%;
+     height: 70px;
+ }
+
+ .block3 li {
+    background-color: rgb(240, 216, 3); 
+    line-height: 2em;
+    margin-top:10px ;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height:50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+ }
+ .block3 li:hover{
+     background-color: brown;
+     color:white;
+     list-style-type: "\2705";
+     width: 70%;
+     height: 70px;
+ }
+
+ .block4 li {
+    background-color: rgb(240, 216, 3); 
+    line-height: 2em;
+    margin-top:10px ;
+    border-radius: 3em;
+    width: 60%;
+    padding-left: 10px;
+    height:50px;
+    list-style-type: square;
+    list-style-position: inside;
+    list-style-type: "\2705";
+ }
+ .block4 li:hover{
+     background-color: brown;
+     color:white;
+     list-style-type: "\2705";
+     width: 70%;
+     height: 70px;
+ }
+ .block1{
+    background: conic-gradient(from 90deg,rgb(0, 161, 167), rgb(44, 255, 244), rgb(103, 2, 161)); 
+}
+
+.block2{
+    background: conic-gradient(from 90deg, rgb(160, 172, 0), rgb(228, 228, 0), rgb(255, 123, 0)); 
+}
+
+.block3{
+    background: radial-gradient(circle at top left, #00b89f, #0053ec);
+}
+
+.block4{
+    background: radial-gradient(circle at top left, #00ff37, #00ff95);
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    background-color: #00b89f;
+    font-size: 20px;
+    width: 100%;
+    border: 2px solid white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.nav a{
+    display: block;
+    text-decoration: none;
+    color: azure;
+    padding: 8px 16px;
+    float: left;
+}
+.nav a:hover{
+    background-color: rgb(126, 0, 0);
+    color: aliceblue;
+}
+
+.block5{
+    width: 100%;
+    height: 300;
+    padding: 100px;
+    background-color: blue;
+}
+
+.btn1{
+    width: 300px;
+    height: 70px;
+    background-color: blueviolet;
+    color: azure;
+    padding: 20px 30px;
+    font-size: 30px;
+    text-align: left;
+    text-decoration: none;
+    border: 1px solid rgb(0, 206, 189);
+    display: inline-block;
+    border-radius:19px ;
+    box-shadow: 7px 0px 16px rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background-color: beige;
+    color: black;
+    border: 2px solid black;
+    box-shadow: 7px 0px 16px rgb(0, 0, 0);
+}
+
+.btn1:active{
+    background-color: chocolate;
+    color: yellow;
+}
+
+input{
+    padding:10px 10px;
+    border: 100px;
+    font-size: 30px;
+}
+
+.search {
+    width: 200px;
+    height: 40px;
+    position:right;
+    float: right;
+}
+
+.button{
+    width: 70px;
+    background-color: aquamarine;
+  text-align:center;
+  float: right;
+  height: 40px;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(40, 38, 141);
+    color:rgb(59, 1, 1)
+}
+
+.img_button{
+    height: 20px;
+    position: relative;
+}
+.img_button:hover{
+    cursor:pointer;
+    background-color: rgb(0, 0, 0);
+}
